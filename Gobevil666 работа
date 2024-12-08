@@ -1,0 +1,11 @@
+import random
+
+password = "1234567890abcefghijklmnopqrstuvwxyz"
+
+c = int(input("Какова длина пароля:"))
+
+passw = ""
+
+for i in range(c):
+    passw += random.choice(password) 
+print(passw)
